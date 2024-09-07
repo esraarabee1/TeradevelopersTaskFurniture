@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.roboto-thin{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .inter{
+    font-family: "Inter", sans-serif;
+    
+  }*/
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  /*-------------grid----------------*/
+   .clear{
+      clear: both;
+   }
+/*-----------header-----------*/
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+.row{
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    overflow: hidden;
+}
+.col{
+    width: auto;
+    display: inline-block;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.list-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-item a {
+  font-family: "Inter", sans-serif;
+  
+}
+.header-item{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-item a {
+    color: #494949;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+
+}
+.header-item .active{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    }
+.main-link {
+    border-radius: 4px;
+    background: #1A7F3D;
+    color: white;
+    text-decoration: none;
+    padding: 16px 24px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 18px; 
+
+ }
+ /*-------------hero section-----------*/
+ .hero-back{
+    background-image:url(../images/back.png);
+    min-height: calc(100vh - 100px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+ }
+  h1{
+    color: #1A7F3D;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 40px;
+ }
+ .para{
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 64px;
+ }
+ .div-ancor{
+    text-align: center;
+ }
+ .div-ancor a{
+  width: 387px;
+  height: 56px;
+  padding: 16px 24px;
+  align-items: center;
+ }
+ 
+/*------------------------section2---------------------*/
+.content{
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom:40px ;
+}
+.col-sec-2{
+  width: 25%;
+  float: left;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.img-dev{
+  overflow: hidden;
+  height: 221px;
+  line-height: 221px;
+  text-align: center;
+  
+}
+.img-dev img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px 8px 0px 0px;
+  display: inline-block;
+  padding: 0px 10px;
+  vertical-align: middle;
+}
+.item{
+  border-radius: 0px 0px 8px 8px;
+  background: #FAFAFA;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.item:hover{
+  /*transform: translateY(-10px);*/
+  transform: scale(.8);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.ul-item{
+  display: inline-block;
+}
+h2{
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px #1A7F3D; 
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  letter-spacing: -3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  padding-top: 115px;
+  text-align: center;
+}
+.para-1{
+  color: #8D8D8D;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding-top: 16px;
+  text-decoration: none;
+}
+.para-2{
+  color: #0D1B39;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  float: left;
+  margin-top: 9px;
+}
+.paragrapp-1{
+  color: #585858;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.name-pro{
+  color: #0D1B39;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+.star-0 svg path, .stars svg path{
+  fill: #FFF;
+  stroke:  #F6B76F;
+}
+
+.star-1 svg:first-child path{
+  stroke:#FFF ;
+  fill: #F6B76F ;
+}
+
+.star-2 svg:nth-child(1) path, .star-2 svg:nth-child(2) path{
+  stroke:#FFF ;
+  fill: #F6B76F ;
+}
+
+.star-3 svg:nth-child(1) path, .star-3 svg:nth-child(2) path, .star-3 svg:nth-child(3) path{
+  stroke:#FFF ;
+  fill: #F6B76F ;
+}
+
+.star-4 svg:nth-child(1) path, .star-4 svg:nth-child(2) path, .star-4 svg:nth-child(3) path, .star-4 svg:nth-child(4) path{
+  stroke:#FFF ;
+  fill: #F6B76F ;
+}
+
+.star-5 svg:nth-child(1) path, .star-5 svg:nth-child(2) path, .star-5 svg:nth-child(3) path, .star-5 svg:nth-child(4) path, .star-5 svg:nth-child(5) path{
+  stroke:#FFF ;
+  fill: #F6B76F ;
+}
+.items{
+  text-align: left;
+  padding-bottom: 32px;
+}
+.btn{
+  border-radius: 50%;
+  background: #0D1B39;
+  width: 48px;
+  height: 48px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+  transition: all linear 0.5s ;
+}
+.div-content-2 .btn:hover{
+  background-color: #FFF;
+  transform: rotate(180deg);
+}
+.div-content-2 .btn:hover svg path{
+  fill:#0D1B39;
+}
+.div-content-2 .btn svg{
+  vertical-align: middle;
+}
+.div-content-2 .btn svg{
+  vertical-align: middle;
+}
+.item{
+  border-radius: 0px 0px 8px 8px;
+  background: #FAFAFA;
+  border-radius: 8px;
+  padding: 16px;
+}
+.dev-content{
+  text-align: left;
+}
+.dolar{
+  display: inline-block;
+  margin-right: 6px;
+  
+}
+.div-content-2 .btn{
+  float: right;
+}
+.div-content-2 .para-2{
+  float: left;
+}
+.div-content-2{
+  overflow: hidden;
+}
+.div-content-2 .para-2 , .div-content-2 .btn{
+display: inline-block;
+}
+/*------------------section4---------*/
+.col-50{
+  width: 50%;
+  float: left;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.ancor{
+  text-align: center;
+}
+h4{
+  color: #424B5A;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 48px;
+  padding-top: 150px;
+  text-align: left;
+}
+.ancor a{
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 18px; /* 75% */
+  border-radius: 4px;
+  background: #1A7F3D;
+  width: 284px;
+  height: 56px;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+.item-content{
+  max-width: 386px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.item-im img{
+  width: 100%;
+  height: 100%;
+}
+/*----------------section-------*/
+.back-section{
+  background-image:url(../images/im.png);
+  background-position: bottom;
+  background-size: 100%;
+  padding-top:48px;
+  padding-bottom:48px;
+  padding-left: 103px;
+  
+}
+.submitt input{
+  height: 56px;
+  padding: 16px 70px;
+  align-items: center;
+  text-align: center;
+  color: #1A7F3D;
+  text-align: center;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 18px; /* 75% */
+ }
+.heading-1{
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 16px;
+
+}
+.paragraphh{
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding-bottom: 24px;
+}
+.input-div{
+
+}
+.input-div input{
+  border-radius: 2px;
+  border: 1px solid  #E0E0E0;
+  background:  #FFF;
+  padding: 24px;
+  align-items: center;
+  width: 386px;
+  height: 56px;
+  padding-top: 24px;
+  margin-bottom: 24px;
+  color: #424B5A;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.di-ancor{
+  
+}
+ .di-ancor a{
+  border-radius: 4px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  text-decoration: none;
+  padding: 16px 24px;
+  align-items: center;
+  width: 284px;
+  height: 56px;
+  color: #1A7F3D;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  display: inline-block;
+}
+.heading-2{
+  color:#424B5A;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+/*---------------footer-------------*/
+.footer{
+  padding: 87px 183px;
+  background: #1A7F3D;
+}
+.footer-para{
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300; 
+  padding-top: 32px;
+}
+.footer-para-1{
+  padding-top: 24px;
+  color: #FFF;
+  font-family: "Inter",  sans-serif;
+  font-size: 16px;
+  font-weight: 400; 
+  text-align: left;
+}
+.heading-3{
+  color: #FFF;
+  font-family: "Inter",  sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.232px;
+  text-align: left;
+  padding-bottom: 16px;
+}
+.f-item a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Inter",  sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400; 
+  display: inline-block;
+  padding-bottom: 16px;
+}
+.f-item{
+  text-align: left;
+}
+.f-item a svg {
+  vertical-align: middle;
+  margin-right: 16px;
+}
+.logo a svg {
+  margin-right:40px ;
+}
